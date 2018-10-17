@@ -9,8 +9,7 @@
 namespace App\Services;
 
 
-class Greeting
-{
+class Greeting {
     public function greet($name){
         if($name === 'María'){
             $result = '¿Qué tal María?';
